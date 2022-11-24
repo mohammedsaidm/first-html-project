@@ -1,0 +1,146 @@
+/* ## Colors
+### Neutral
+- Almost White: hsl(0, 0%, 98%)
+- Medium Gray: hsl(0, 0%, 41%)
+- Almost Black: hsl(0, 0%, 8%) */
+
+html{
+    background-color: hsl(0, 0%, 98%) ;
+    font-family: Epilogue;
+}
+
+/* Navbar container */
+.navbar{
+    overflow: hidden;
+    background-color:hsl(0, 0%, 98%) ;
+}
+
+/* Links inside navbar */
+.navbar a{
+    float: left;
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar .snap{
+    color: hsl(0, 0%, 8%);
+    font-weight: bold;
+    font-size: 36px;
+    padding: 0px 40px;
+}
+
+/* the features-dd container */
+.features-dd, .company-dd{
+    float: left;
+    overflow: hidden;
+}
+
+/* features-dd button */
+.features-dd .dropbtn,.company-dd .dropbtn{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: hsl(0, 0%, 41%);
+    padding: 14px 16px;
+    background-color: inherit; 
+    font-family: inherit; /* Important for vertical alogn on mobile phones*/
+    margin: 0; /* Important for vertical alogn on mobile phones*/
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .features-dd:hover .dropbtn,.company-dd:hover .dropbtn{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+}
+
+
+/* features-dd content (hidden by default) */
+.features-dd-content, .company-dd-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width:160px;
+    box-shadow: 0px 8px 16px 0px rgpa(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* links inside the features-dd */
+.features-dd-content a,.company-dd-content a{
+    float: none;
+    color: hsl(0, 0%, 41%);
+    font-size: 15px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to features-dd links on hover */
+.features-dd-content a:hover, .comapny-dd-content a:hover{
+    background-color: #ddd;
+}
+
+/* show the features-dd mwnu on hover */
+.features-dd:hover .features-dd-content, .company-dd:hover .company-dd-content{
+    display: block;
+}
+
+/* button register */
+.btn-register {
+    border: 2px solid hsl(0, 0%, 41%);
+    background-color: white;
+    color: hsl(0, 0%, 41%);
+    padding: 10px 28px;
+    margin: 4px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+  .authbtns{
+    float:right;
+  }
+
+  /* title big font */
+  .title-big h1{
+    position: relative;
+    font-size: 80px;
+    padding-top: 30px;
+    padding-left: 70px;
+    text-align: left;
+  }
+  .title-small {
+    position: relative;
+    font-size: 80px;
+    padding-top: 20px;
+    padding-left: 70px;
+    font-size:20px;
+    color: hsl(0, 0%, 41%);
+  }
+
+  /* learn more btn */
+  .btn-learn-more{
+    border: 2px solid hsl(0, 0%, 41%);
+    background-color: white;
+    color: hsl(0, 0%, 41%);
+    padding: 10px 28px;
+    margin-top: 70px;
+    margin-left: 70px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+  .left-items{
+    text-align: left;
+  }
+
+  .bottom-images{
+    padding-top: 70px;
+    padding-left: 70px;
+  }
+
+
